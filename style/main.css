@@ -86,14 +86,14 @@ section{
 .sec3{
     margin-top: 20px;
     margin-left: -20px;
-    /*background: url(portfolio.jpg) no-repeat;*/
+    background: url("../content/Slider Banner.jpg");
     background-size: cover;
     height: 100vh;
     width: 100%;
 }
 .sec{
     margin-left: -20px;
-    background: url("../content/Slider Banner.jpg");
+    /*background: url("../content/Slider Banner.jpg");*/
     background-size: cover;
     height: 100vh;
 }
