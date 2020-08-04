@@ -130,7 +130,9 @@ p{
     [class*="col-"] {
         width: 100%;
     }
-
+.sec1 #slide{
+    display: none;
+}
  .sec3 {
      display: none
  }
