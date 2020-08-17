@@ -44,11 +44,22 @@
     <script>
         $(document).ready(function(){
             $('i').click(function(){
+                if ( window){
                 $('ul').toggleClass('ul_show');
                 $('section').toggleClass('slide_image');
+                }else {
+                    $('ul').toggleClass("ul2_show")
+                    $('section').toggleClass("slide2_image")
+                }
+
             });
             $('li').click(function(){
                 $(this).addClass('active').siblings().removeClass('active');
+
+
+            });
+            $(window).resize(function(){
+
             });
 
         });
@@ -63,7 +74,7 @@
 
 
 
-<ul>
+<ul >
 
     <img style="height: 300px;padding-top: 50px" src="Gallery/Dennis-Kagiri.jpg" alt="dennis kagiri">
 
@@ -151,8 +162,6 @@
                         <div class="w3-container">
                             <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Digital marketer</p>
                             <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Nairobi,KE</p>
-                            <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>Kagiridee@gmail.com</p>
-                            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+254 720 333 869</p>
                             <hr>
 
                             <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
@@ -233,9 +242,9 @@
         <h1 id="Latest_posts" style="color: grey;text-align: center;font-size: x-large">
             <strong> Latest posts</strong>
         </h1>
-        <div class="card-deck">
-            <div class="card">
-                <a href="posts/During%20Crisis,%20Relationship%20management%20is%20key.html"><img class="card-img-top" src="Gallery/strawberry-drop-on-milk-2064359.jpg" alt="Danger of replacing PR with Publicity"></a>
+        <div class="card-deck ">
+            <div class="card ">
+                <a href="posts/During%20Crisis,%20Relationship%20management%20is%20key.html"><img class="card-img-top" src="content/Images/Five-Attributes-That-Define-A-World-Class-Corporate-Website-In-2016.jpg" alt="Danger of replacing PR with Publicity"></a>
                 <div class="card-body">
                     <h5 class="card-title">During Crisis, Relationship management is ke</h5>
                     <p class="card-text">When it comes to crisis and business it is never about if it happens but when it happens. Every business will go through a crisis. However organizations can minimize the damage by preparing for it. An organization should also be ready with turnaround strategies to rebuild reputation post crisis</p>
@@ -257,7 +266,7 @@
                 </div>
             </div>
             <div class="card">
-                <a href="posts/Countering%20exaggerated%20online%20feedback.html"><img class="card-img-top" src="Gallery/person-wearing-red-hoodie-1097456.jpg" alt="Card image cap"></a>
+                <a href="posts/Countering%20exaggerated%20online%20feedback.html"><img class="card-img-top" src="content/Images/dotsavvys-services-1.jpg" alt="Card image cap"></a>
                 <div class="card-body">
                     <h5 class="card-title">Countering exaggerated online feedback</h5>
                     <p class="card-text">Social media has boosted citizen journalism. You now don’t have to wait for prime time news, but can instead get real time updates on social media. This new journalism space however comes with the risks of misinformation, misrepresenta</p>
@@ -270,47 +279,12 @@
 
     </div>
 
-    <!--    <div class="sec4">-->
-    <!--        <h1 id="Gallery" style="color:grey;">-->
 
-    <!--            <strong>Gallery</strong>-->
-    <!--            <div class="w3-content" style="max-width:1500px">-->
-
-    <!--                &lt;!&ndash; Header &ndash;&gt;-->
-
-
-    <!--                &lt;!&ndash; Photo Grid &ndash;&gt;-->
-    <!--                <div class="w3-row" id="myGrid" style="margin-bottom:128px">-->
-    <!--                    <div class="w3-third">-->
-    <!--                        <img src="Gallery/pumpkin-and-skull-on-table-2679968.jpg" style="width:100%">-->
-
-    <!--                        <img src="Gallery/art-fingers-foggy-hand-626163.jpg" style="width:100%">-->
-    <!--                    </div>-->
-
-    <!--                    <div class="w3-third">-->
-    <!--                        <img src="content/Images/dotsavvys-services-1.jpg" style="width:100%">-->
-    <!--                        <img src="Gallery/pumpkin-and-skull-on-table-2679968.jpg" style="width:100%">-->
-    <!--                        <img src="Gallery/person-wearing-red-hoodie-1097456.jpg" style="width:100%">-->
-    <!--                    </div>-->
-
-    <!--                    <div class="w3-third">-->
-    <!--                        <img src="Gallery/Landing.jpg" style="width:100%">-->
-    <!--                        <img src="Gallery/smoke-59810.jpg" style="width:100%">-->
-    <!--                    </div>-->
-    <!--                </div>-->
-
-    <!--                &lt;!&ndash; End Page Content &ndash;&gt;-->
-    <!--            </div>-->
-
-
-    <!--        </h1>-->
-    <!--    </div>-->
     <div class="sec">
         <h1 id="Contacts" style="color: grey;text-align: center;font-size: x-large">
             <strong> Contacts</strong>
         </h1>
         <div class="container-contact100">
-            <div class="contact100-map" id="google_map" data-map-x="40.722047" data-map-y="-73.986422" data-pin="images/icons/map-marker.png" data-scrollwhell="0" data-draggable="1"></div>
 
             <div class="wrap-contact100">
                 <div class="contact100-form-title" style="background-image: url(ContactFrom/images/bg-01.jpg);">
@@ -371,6 +345,11 @@
     </div>
 
 </section>
+<br>
+<footer class="w3-teal w3-center w3-large" style="height: 50px;padding-top: 10px">
+    copyright.2020
+</footer>
+
 
 <!--===============================================================================================-->
 <script src="ContactFrom/vendor/jquery/jquery-3.2.1.min.js"></script>

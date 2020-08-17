@@ -63,7 +63,7 @@ section{
     transition: all .3s;
 }
 .sec1 .fixed-top  #slide{
-    /*position: fixed;*/
+
     margin: 10px 10px;
     font-size: 40px;
     color: white;
@@ -81,19 +81,18 @@ section{
 .sec2{
     margin-left: -20px;
     background-size: cover;
-    height: 150vh;
+    height: 100vh;
 }
 .sec3{
     margin-top: 20px;
     margin-left: -20px;
-    /*background: url("../content/Slider Banner.jpg");*/
+    background: url("../content/Slider Banner.jpg");
     background-size: cover;
     height: 100vh;
     width: 100%;
 }
 .sec{
     margin-left: -20px;
-    /*background: url("../content/Slider Banner.jpg");*/
     background-size: cover;
     height: 100vh;
 }
@@ -111,6 +110,12 @@ p{
 }
 .slide_image{
     margin-left: 260px;
+}
+.ul2_show{
+    margin-top: 0px;
+}
+.slide2_image{
+    margin-top: 500px;
 }
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -134,7 +139,7 @@ p{
     display: none;
 }
  .sec3 {
-     display: none
+     display: none;
  }
 .sec1 #head{
     display: none;
@@ -142,29 +147,5 @@ p{
 .sec1 #head2{
     margin-top: 40vh;
 }
-    ul{
-        position: fixed;
-        top: 0;
-        left: 0;
-        margin-top: -240px;
-        width: 240px;
-        background: #1e1e1e;
-        height: 100vh;
-        overflow-x: auto;
-        transition: all .3s;
-    }
-    ul li{
-        height: 65px;
-        outline: none;
-    }
-    .ul_show{
-        margin-top: 0px;
-    }
-    .slide_image{
-        margin-top: 260px;
-    }
-
-
-
 
 }
