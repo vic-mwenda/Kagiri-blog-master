@@ -1,0 +1,242 @@
+
+
+a.meanmenu-reveal {
+	display: none;
+}
+
+/* when under viewport size, .mean-container is added to body */
+.mean-container .mean-bar {
+	float: left;
+	width: 100%;
+	position: relative;
+	margin-top: 0;
+	min-height: 42px;
+	z-index: 999999;
+
+
+}
+
+.active a{
+	border-left: 5px teal ;
+}
+
+.mean-container a.meanmenu-reveal {
+	width: 22px;
+	height: 22px;
+	padding: 13px 13px 11px 13px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	text-indent: -9999em;
+	line-height: 22px;
+	font-size: 1px;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+}
+
+.mean-container a.meanmenu-reveal span {
+	display: block;
+	background: #fff;
+	height: 3px;
+	margin-top: 3px;
+}
+
+.mean-container .mean-nav {
+	float: left;
+	width: 100%;
+	background: #1e1e1e;
+	margin-top: 44px;
+}
+
+.mean-container .mean-nav ul {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	list-style-type: none;
+}
+
+.mean-container .mean-nav ul li {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.mean-container .mean-nav ul li a {
+	display: block;
+	float: left;
+	width: 90%;
+	padding: 1em 5%;
+	margin: 0;
+	text-align: left;
+	color: #fff;
+	border-top: 1px solid #383838;
+	border-top: 1px solid rgba(255,255,255,0.5);
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.mean-container .mean-nav ul li li a {
+	width: 80%;
+	padding: 1em 10%;
+	border-top: 1px solid #f1f1f1;
+	border-top: 1px solid rgba(255,255,255,0.25);
+	opacity: 0.75;
+	filter: alpha(opacity=75);
+	text-shadow: none !important;
+	visibility: visible;
+}
+
+.mean-container .mean-nav ul li.mean-last a {
+	border-bottom: none;
+	margin-bottom: 0;
+}
+
+.mean-container .mean-nav ul li li li a {
+	width: 70%;
+	padding: 1em 15%;
+}
+
+.mean-container .mean-nav ul li li li li a {
+	width: 60%;
+	padding: 1em 20%;
+}
+
+.mean-container .mean-nav ul li li li li li a {
+	width: 50%;
+	padding: 1em 25%;
+}
+
+.mean-container .mean-nav ul li a:hover {
+	background-color: teal;
+	opacity: 60%;
+	color: black;
+	font-family: "Apple Color Emoji", serif;
+	text-decoration-line: none;
+}
+
+.mean-container .mean-nav ul li a.mean-expand {
+	margin-top: 1px;
+	width: 26px;
+	height: 28px;
+	padding: 12px !important;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+	font-weight: 700;
+	background: rgba(255,255,255,0.1);
+	border: none !important;
+	border-left: 1px solid rgba(255,255,255,0.4) !important;
+	border-bottom: 1px solid rgba(255,255,255,0.2) !important;
+}
+
+.mean-container .mean-nav ul li a.mean-expand:hover {
+	background: rgba(0,0,0,0.9);
+}
+
+.mean-container .mean-push {
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: -30vh;
+	clear: both;
+}
+
+/*.mean-nav .wrapper {*/
+/*	width: 100%;*/
+/*	padding: 0;*/
+/*	margin: 0;*/
+/*}*/
+
+/* Fix for box sizing on Foundation Framework etc. */
+.mean-container .mean-bar, .mean-container .mean-bar * {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+
+.mean-remove {
+	display: none !important;
+}
+section{
+	margin-left: 0px;
+	transition: all .3s;
+}
+
+.sec1 ol a{
+	text-decoration-line: none;
+	color: white;
+}
+.sec1{
+	margin-left: -20px;
+	background: url("../Gallery/Landing.jpg");
+	height: 100vh;
+}
+.sec2{
+	margin-left: -20px;
+	background-size: cover;
+	height: 100vh;
+}
+.sec3{
+	margin-top: 20px;
+	margin-left: -20px;
+	background: url("../content/Slider Banner.jpg");
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+}
+.sec{
+	margin-left: -20px;
+	background-size: cover;
+	height: 100vh;
+}
+section{
+	margin-left: 0px;
+	transition: all .3s;
+}
+
+
+h1{
+	font-size: 40px;
+	padding: 15px 20px;
+}
+p{
+	padding: 0 20px 10px 20px;
+	text-align: justify;
+}
+h1{
+	font-size: 40px;
+	padding: 15px 20px;
+}
+p{
+	padding: 0 20px 10px 20px;
+	text-align: justify;
+}
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	.sec1 nav{display: none}
+	[class*="col-"] {
+		width: 100%;
+	}
+	.sec1 #slide{
+		display: none;
+	}
+	.sec3 {
+		display: none;
+	}
+	.sec1 #head{
+		display: none;
+	}
+	section .sec1 #head2{
+		margin-top: -10vh;
+	}
+
+}
+

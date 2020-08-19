@@ -4,8 +4,5 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="ContactFrom" />
-    <orderEntry type="library" name="jquery-1.12.4" level="application" />
-    <orderEntry type="module" module-name="responsiveMenu" />
   </component>
 </module>
