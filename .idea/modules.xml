@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ContactFrom/.idea/ContactFrom.iml" filepath="$PROJECT_DIR$/ContactFrom/.idea/ContactFrom.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/kagiri-master.iml" filepath="$PROJECT_DIR$/.idea/kagiri-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/responsiveMenu/.idea/responsiveMenu.iml" filepath="$PROJECT_DIR$/responsiveMenu/.idea/responsiveMenu.iml" />
     </modules>
   </component>
 </project>

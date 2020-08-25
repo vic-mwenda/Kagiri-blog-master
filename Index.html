@@ -40,16 +40,17 @@
 	<link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
 	<!--    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">-->
 	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-
+	<link rel="stylesheet" href="style/main.css" media="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 	<title>Dennis Kagiri</title>
 <style type="text/css">
-body{max-width:1020px;margin:0 auto;}
+body{max-width:100% ;margin:0 auto;}
 header{margin:10px 0px;}
 .menu ul{
 	position: fixed;
 	top: 0;
 	left: 0;
-	margin-left: -20px;
+	/*margin-left: -20px;*/
 	width: 240px;
 	background: #1e1e1e;
 	height: 100vh;
@@ -98,8 +99,7 @@ header{margin:10px 0px;}
 }
 
 </style>
-<link rel="stylesheet" href="responsiveMenu/meanmenu.css" media="all" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
 </head>
 
 <body>
@@ -109,9 +109,9 @@ header{margin:10px 0px;}
 		<ul>
 		<img style="height: 300px;padding-top: 50px" src="Gallery/Dennis-Kagiri.jpg" alt="dennis kagiri">
 
-		<li class="active"><a href="#"><strong>Home</strong></a></li>
+		<li class="active"><a href="#home"><strong>Home</strong></a></li>
 		<li><a href="#aboutme"><strong>About me</strong></a></li>
-		<li><a href="#Latest_posts"><strong>Latest posts</strong></a></li>
+		<li><a href="Latest_posts/Latest_posts.html"><strong>Latest posts</strong></a></li>
 		<li><a href="#Contacts"><strong>Contacts</strong></a></li>
 		</ul>
 	</div>
@@ -120,15 +120,15 @@ header{margin:10px 0px;}
 	<!--    <i class="fa fa-bars" aria-label="hidden"></i>-->
 
 
-	<div class="sec1">
+	<div class="sec1" id="home">
 		<nav class="fixed-top" style="padding-bottom: 20px;background: teal;height: 50px">
 
 			<img height="40vh" style="padding-bottom: 10px" src="Gallery/logo4.png" alt="">
 			<div id="header-icons" style="float: right">
 				<footer class="w3-container-fluid  w3-center w3-opacity w3-large" style="margin-top:5px">
-					<a style="color: red"href="https://www.instagram.com/kagiri_dennis/"><i class="fa fa-instagram fa-2x w3-hover-opacity"></i></a>
-					<a  href="https://twitter.com/kagiridee"><i class="fa fa-twitter fa-2x w3-hover-opacity"></i></a>
-					<a style="color: white" href="https://www.linkedin.com/in/kagiri-dennis-4628a6a5/"><i class="fa fa-linkedin fa-2x w3-hover-opacity"></i></a>
+					<a target="_blank" style="color: red"href="https://www.instagram.com/kagiri_dennis/"><i class="fa fa-instagram fa-2x w3-hover-opacity"></i></a>
+					<a target="_blank" href="https://twitter.com/kagiridee"><i class="fa fa-twitter fa-2x w3-hover-opacity"></i></a>
+					<a target="_blank" style="color: white" href="https://www.linkedin.com/in/kagiri-dennis-4628a6a5/"><i class="fa fa-linkedin fa-2x w3-hover-opacity"></i></a>
 				</footer>
 
 			</div>
@@ -253,12 +253,9 @@ header{margin:10px 0px;}
 						</div>
 						<p>kiswahili</p>
 						<div class="w3-light-grey w3-round-xlarge">
-							<div class="w3-round-xlarge w3-teal" style="height:24px;width:75%"></div>
+							<div class="w3-round-xlarge w3-teal" style="height:24px;width:75%;padding-bottom: 10px"></div>
 						</div>
-						<p>kikuyu</p>
-						<div class="w3-light-grey w3-round-xlarge">
-							<div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
-						</div>
+
 					</div>
 
 					<!-- End Right Column -->
@@ -282,9 +279,15 @@ header{margin:10px 0px;}
 				<div class="card-body">
 					<h5 class="card-title">During Crisis, Relationship management is ke</h5>
 					<p class="card-text">When it comes to crisis and business it is never about if it happens but when it happens. Every business will go through a crisis. However organizations can minimize the damage by preparing for it. An organization should also be ready with turnaround strategies to rebuild reputation post crisis</p>
-					<h8 class="card-text"><small>Denis kagiri.twitter kenya</small></h8>
 					<br>
-					<h8 class="card-text"><small class="text-muted">july 22. 3 mins read <i class="fa fa-star" aria-hidden="true"></i></small></h8>
+
+					<div class="box-1" >
+						<a href="posts/During%20Crisis,%20Relationship%20management%20is%20key.html">
+							<div class="btn btn-one">
+								<span>READ MORE</span>
+							</div>	</a>
+
+					</div>
 				</div>
 			</div>
 			<div class="card">
@@ -294,20 +297,32 @@ header{margin:10px 0px;}
 					<p class="card-text">Everybody is on social media, but not everybody is getting it right.
 
 						Most Companies/government bodies and their CEOs now have social media accounts but sadly a few are engaging. Many of their Facebook and twitter accounts are full of event photos, announcements of new products and there is hardly.</p>
-					<h8 class="card-text"><small>Denis kagiri.twitter kenya</small></h8>
 					<br>
-					<h8 class="card-text"><small class="text-muted">july 22. 3 mins read <i class="fa fa-star" aria-hidden="true"></i></small></h8>
+					<div class="box-1">
+						<a href="posts/Social%20media%20is%20for%20engagement,%20its%20not%20a%20task.html">
+							<div class="btn btn-one"><span>READ MORE</span>
+
+						</div></a>
+
+
+					</div>
 				</div>
 			</div>
 			<div class="card">
 				<a href="posts/Countering%20exaggerated%20online%20feedback.html"><img class="card-img-top" src="content/Images/dotsavvys-services-1.jpg" alt="Card image cap"></a>
 				<div class="card-body">
 					<h5 class="card-title">Countering exaggerated online feedback</h5>
-					<p class="card-text">Social media has boosted citizen journalism. You now don’t have to wait for prime time news, but can instead get real time updates on social media. This new journalism space however comes with the risks of misinformation, misrepresenta</p>
-					<h8 class="card-text"><small>Denis kagiri.twitter kenya</small></h8>
+					<p class="card-text"> Social media has boosted citizen journalism. You now don’t have to wait for prime time news, but can instead get real time updates on social media. This new journalism space however comes with the risks of misinformation, misrepresentation of facts and posting of unverified information. A risk that can bring down business reputation at the twinkling of an eye. . </p>
 					<br>
-					<h8 class="card-text"><small class="text-muted">july 22. 3 mins read <i class="fa fa-star" aria-hidden="true"></i></small></h8>
+
+					<div class="box-1">
+
+						<a href="posts/Countering%20exaggerated%20online%20feedback.html">	<div class="btn btn-one">
+							<span>READ MORE</span>
+						</div></a>
 				</div>
+				</div>
+
 			</div>
 		</div>
 
@@ -375,6 +390,7 @@ header{margin:10px 0px;}
 
 
 	</div>
+	<div class="w3-black w3-center w3-padding-24"> copyright : 2020</div>
 
 </section>
 <br>
@@ -438,10 +454,9 @@ header{margin:10px 0px;}
 <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/1bb820cba5ae44672e889f6bb/7cbe8107a2945cbe39808d88f.js");</script>
 
 
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 
-<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-
-<script src="responsiveMenu/jquery.meanmenu.js"></script>
+<script src="style/jquery.meanmenu.js"></script>
 <script>
 	jQuery(document).ready(function () {
 	    jQuery('.menu').meanmenu();

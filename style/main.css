@@ -1,4 +1,4 @@
-
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
 
 a.meanmenu-reveal {
 	display: none;
@@ -166,8 +166,9 @@ a.meanmenu-reveal {
 	display: none !important;
 }
 section{
-	margin-left: 0px;
 	transition: all .3s;
+	width: 100%;
+	/*background: url("../Gallery/background.jpg");*/
 }
 
 .sec1 ol a{
@@ -175,32 +176,30 @@ section{
 	color: white;
 }
 .sec1{
-	margin-left: -20px;
+	/*margin-left: 100px;*/
 	background: url("../Gallery/Landing.jpg");
+
 	height: 100vh;
 }
 .sec2{
-	margin-left: -20px;
+	/*margin-left: 100px;*/
 	background-size: cover;
 	height: 100vh;
 }
 .sec3{
-	margin-top: 20px;
-	margin-left: -20px;
+	margin-top: 100px;
+	/*margin-left: 20px;*/
 	background: url("../content/Slider Banner.jpg");
 	background-size: cover;
 	height: 100vh;
 	width: 100%;
 }
 .sec{
-	margin-left: -20px;
+	/*margin-left: 200px;*/
 	background-size: cover;
 	height: 100vh;
 }
-section{
-	margin-left: 0px;
-	transition: all .3s;
-}
+
 
 
 h1{
@@ -222,21 +221,94 @@ p{
 @media only screen and (max-width: 768px) {
 	/* For mobile phones: */
 	.sec1 nav{display: none}
-	[class*="col-"] {
-		width: 100%;
-	}
-	.sec1 #slide{
-		display: none;
-	}
+
 	.sec3 {
 		display: none;
 	}
 	.sec1 #head{
 		display: none;
 	}
-	section .sec1 #head2{
-		margin-top: -10vh;
+	 .sec1 #head2{
+		margin-top: -30vh;
 	}
 
 }
+@media only screen and (min-width: 768px) {
+body{
+	padding-left: 240px;}
+	html, body {margin: 0; height: 100%; overflow: hidden}
+
+
+}
+
+
+
+
+
+.box-1 { background-color: #FF6766; }
+.box-2 { background-color: #3C3C3C; }
+.box-1 { background-color: #66A182; }
+
+.btn {
+	line-height: 50px;
+	height: 50px;
+	text-align: center;
+	width: 250px;
+	cursor: pointer;
+}
+
+/*
+========================
+      BUTTON ONE
+========================
+*/
+.sec3 .btn-one {
+	color: #FFF;
+	transition: all 0.3s;
+	position: relative;
+}
+.sec3 .btn-one span {
+	transition: all 0.3s;
+}
+.sec3 .btn-one::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: rgba(255,255,255,0.5);
+	border-bottom-color: rgba(255,255,255,0.5);
+	transform: scale(0.1, 1);
+}
+.sec3 .btn-one:hover span {
+	letter-spacing: 2px;
+}
+.sec3 .btn-one:hover::before {
+	opacity: 1;
+	transform: scale(1, 1);
+}
+.sec3 .btn-one::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.3s;
+	background-color: rgba(255,255,255,0.1);
+}
+.sec3 .btn-one:hover::after {
+	opacity: 0;
+	transform: scale(0.1, 1);
+}
+
 

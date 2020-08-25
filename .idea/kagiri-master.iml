@@ -6,6 +6,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="ContactFrom" />
     <orderEntry type="library" name="jquery-1.12.4" level="application" />
-    <orderEntry type="module" module-name="responsiveMenu" />
+    <orderEntry type="library" name="jquery-1.11.1" level="application" />
+    <orderEntry type="library" name="5b743fcff2af0ef8c804" level="application" />
   </component>
 </module>
