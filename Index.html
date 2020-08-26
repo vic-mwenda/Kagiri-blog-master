@@ -7,30 +7,12 @@
 	<meta name="google-site-verification" content="OjXOkcliZijMUWQUznfCclESAn5hIS-6Pg34yFJD1HI" />
 
 	<meta name="robots" content="index, follow" />
-
-
-
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" type="image/png" href="ContactFrom/images/icons/favicon.ico"/>
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="ContactFrom/vendor/bootstrap/css/bootstrap.min.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="ContactFrom/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="ContactFrom/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="ContactFrom/vendor/animate/animate.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="ContactFrom/vendor/css-hamburgers/hamburgers.min.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="ContactFrom/vendor/animsition/css/animsition.min.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="ContactFrom/vendor/select2/select2.min.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="ContactFrom/vendor/daterangepicker/daterangepicker.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="ContactFrom/css/util.css">
-	<link rel="stylesheet" type="text/css" href="ContactFrom/css/main.css">
+	<link rel="stylesheet" type="text/css" href="./assets/plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/plugins/animatecss/css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+
 	<link rel="icon" href="Gallery/logo3.png" type="image/icon type">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -111,7 +93,7 @@ header{margin:10px 0px;}
 
 		<li class="active"><a href="#home"><strong>Home</strong></a></li>
 		<li><a href="#aboutme"><strong>About me</strong></a></li>
-		<li><a href="Latest_posts/Latest_posts.html"><strong>Latest posts</strong></a></li>
+		<li><a href="Latest_posts.html"><strong>Latest posts</strong></a></li>
 		<li><a href="#Contacts"><strong>Contacts</strong></a></li>
 		</ul>
 	</div>
@@ -123,7 +105,7 @@ header{margin:10px 0px;}
 	<div class="sec1" id="home">
 		<nav class="fixed-top" style="padding-bottom: 20px;background: teal;height: 50px">
 
-			<img height="40vh" style="padding-bottom: 10px" src="Gallery/logo4.png" alt="">
+			<img height="40vh" style="padding-bottom: 10px;float: left" src="Gallery/logo4.png" alt="">
 			<div id="header-icons" style="float: right">
 				<footer class="w3-container-fluid  w3-center w3-opacity w3-large" style="margin-top:5px">
 					<a target="_blank" style="color: red"href="https://www.instagram.com/kagiri_dennis/"><i class="fa fa-instagram fa-2x w3-hover-opacity"></i></a>
@@ -329,68 +311,70 @@ header{margin:10px 0px;}
 	</div>
 
 
-	<div class="sec">
+	<div class="sec" id="Contacts" style="overflow: scroll">
 
-		<div id="Contacts" class="container-contact100">
 
-			<div class="wrap-contact100">
-				<div class="contact100-form-title" style="background-image: url(ContactFrom/images/bg-01.jpg);">
-				<span class="contact100-form-title-1">
-					Contact Us
-				</span>
+		<br>
 
-					<span class="contact100-form-title-2">
-					Feel free to drop us a line below!
-				</span>
+		<section class="form-style-7 p-relative bg-dark cwhite">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-10 mx-auto p-4">
+						<div class="row">
+							<div class="col-12 my-3">
+								<h2 class="font-title bolder text-center mb-5 uppercase" >Get in Touch<div class="mline bg-warning"></div></h2></div>
+							<div class="col-md-6 col-12">
+								<h6 class="uppercase my-3 font-title">Address</h6>
+								<p class="mb-5 ">Nairobi,Kenya</p>
+								<h6 class="uppercase my-3 font-title">Contact</h6>
+								<p class="mb-5"><i class="fa fa-phone mr-2"></i>+254 720 333869<br><i class="fa fa-envelope mr-2"></i> kagiridee@gmail.com</p>
+								<h6 class="uppercase my-3 font-title">Social</h6>
+								<a target="_blank" href="https://www.instagram.com/kagiri_dennis/" class="p-2 m-2 bg-white"><i class="fa fa-instagram cdark"></i></a>
+								<a target="_blank" href="https://twitter.com/kagiridee" class="p-2 m-2 bg-white"><i class="fa fa-twitter cdark"></i></a>
+								<a target="_blank" href="https://www.linkedin.com/in/kagiri-dennis-4628a6a5/" class="p-2 m-2 bg-white"><i class="fa fa-linkedin cdark"></i></a>
+							</div>
+							<div class="col-md-6 col-12 my-3">
+								<form method="POST" data-netlify="true">
+									<div class="form-group">
+										<label>Name</label>
+										<input type="text" class="form-control flat  ">
+									</div>
+									<div class="form-group">
+										<label>Email</label>
+										<input type="email" class="form-control flat  ">
+									</div>
+									<div class="form-group">
+										<label>Message</label>
+										<textarea class="form-control flat " rows="4"></textarea>
+									</div>
+									<div class="form-group ">
+										<button type="submit" class="btn btn-warning"><i class="fa fa-paper-plane mr-2"></i>Send</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 p-0">
+						<iframe class="p-relative"
+								width="100%"
+								height="300px"
+								frameborder="0" style="border:0"
+								src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBMgRblEioSamju0neKitZS49SNujWkbMM
+        &q=Space+Needle,Nairobi" allowfullscreen>
+						</iframe>
+					</div>
 				</div>
 
-				<form class="contact100-form validate-form">
-					<div class="wrap-input100 validate-input" data-validate="Name is required">
-						<span class="label-input100">Full Name:</span>
-						<input class="input100" type="text" name="name" placeholder="Enter full name">
-						<span class="focus-input100"></span>
-					</div>
-
-					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-						<span class="label-input100">Email:</span>
-						<input class="input100" type="text" name="email" placeholder="Enter email addess">
-						<span class="focus-input100"></span>
-					</div>
-
-					<div class="wrap-input100 validate-input" data-validate="Phone is required">
-						<span class="label-input100">Phone:</span>
-						<input class="input100" type="text" name="phone" placeholder="Enter phone number">
-						<span class="focus-input100"></span>
-					</div>
-
-					<div class="wrap-input100 validate-input" data-validate = "Message is required">
-						<span class="label-input100">Message:</span>
-						<textarea class="input100" name="message" placeholder="Your Comment..."></textarea>
-						<span class="focus-input100"></span>
-					</div>
-
-					<div class="container-contact100-form-btn">
-						<button class="contact100-form-btn">
-						<span>
-							Submit
-							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
-						</span>
-						</button>
-					</div>
-				</form>
 			</div>
-		</div>
-
-
-
-		<div id="dropDownSelect1"></div>
+		</section>
 
 
 
 
+		<div class="w3-black w3-center w3-padding-24"> copyright : 2020</div>
 
 	</div>
-	<div class="w3-black w3-center w3-padding-24"> copyright : 2020</div>
 
 </section>
 <br>
@@ -400,24 +384,7 @@ header{margin:10px 0px;}
 
 
 <!--===============================================================================================-->
-<script src="ContactFrom/vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-<script src="ContactFrom/vendor/animsition/js/animsition.min.js"></script>
-<!--===============================================================================================-->
-<script src="ContactFrom/vendor/bootstrap/js/popper.js"></script>
-<script src="ContactFrom/vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-<script src="ContactFrom/vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-<script src="ContactFrom/vendor/daterangepicker/moment.min.js"></script>
-<script src="ContactFrom/vendor/daterangepicker/daterangepicker.js"></script>
-<!--===============================================================================================-->
-<script src="ContactFrom/vendor/countdowntime/countdowntime.js"></script>
-<!--===============================================================================================-->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script>
-<script src="ContactFrom/js/map-custom.js"></script>
-<!--===============================================================================================-->
-<script src="ContactFrom/js/main.js"></script>
+
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
@@ -429,7 +396,6 @@ header{margin:10px 0px;}
 	gtag('config', 'UA-23581568-13');
 </script>
 <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="/__/firebase/7.16.0/firebase-app.js"></script>
 <script>
 	// Toggle grid padding
 	function myFunction() {
@@ -447,7 +413,6 @@ header{margin:10px 0px;}
      https://firebase.google.com/docs/web/setup#available-libraries -->
 
 <!-- Initialize Firebase -->
-<script src="/__/firebase/init.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
