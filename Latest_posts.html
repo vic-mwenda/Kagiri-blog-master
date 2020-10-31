@@ -74,21 +74,7 @@
         }
             body{max-width:100%;margin:0 auto;}
         header{margin:10px 0px;}
-        .menu ul{
-            position: fixed;
-            top: 0;
-            left: 0;
-            /*margin-left: -20px;*/
-            width: 240px;
-            background: #1e1e1e;
-            height: 100vh;
-            overflow-y: auto;
-            transition: all .3s;
-        }
-        .menu ul li{
-            height: 65px;
-            outline: none;
-        }
+
         *{
             padding: 0;
             margin: 0;
@@ -97,34 +83,7 @@
             box-sizing: border-box;
         }
 
-        .menu ul li a{
-            display: block;
-            height: 100%;
-            width: 100%;
-            line-height: 70px;
-            font-size: 20px;
-            color: white;
-            padding-left: 10%;
-            text-decoration: none;
 
-            border-top: 1px solid rgba(255,255,255,.1);
-            border-bottom: 1px solid black;
-            border-left: 5px solid teal;
-
-        }
-        .menu ul li a:hover{
-            background-color: teal;
-            opacity: 60%;
-            border-left: 5px solid teal;
-            color: black;
-            font-family: "Apple Color Emoji", serif;
-            text-decoration-line: none;
-        }
-        .menu .active a{
-            color: teal;
-            border-left: 5px solid teal;
-            background: #1B1B1B;
-        }
 
     </style>
 
@@ -138,60 +97,18 @@
 
 <div style="display:none;" id="myDiv" class="animate-bottom">
     <nav class="fixed-top" style="padding-bottom: 20px;background: teal;height: 50px">
+        <a href="Index.html"><i style="float: left;color: white" class="fa fa-3x fa-arrow-left " aria-hidden="true"> </i></a>
+    <h1 style="color: white"><span>Latest posts</span></h1>
 
-    <img height="40vh" style="padding-bottom: 10px" src="Gallery/logo4.png" alt="">
-    <div id="header-icons" style="float: right">
-        <footer class="w3-container-fluid  w3-center w3-opacity w3-large" style="margin-top:5px">
-            <a target="_blank" style="color: red"href="https://www.instagram.com/kagiri_dennis/"><i class="fa fa-instagram fa-2x w3-hover-opacity"></i></a>
-            <a target="_blank" href="https://twitter.com/kagiridee"><i class="fa fa-twitter fa-2x w3-hover-opacity"></i></a>
-            <a target="_blank" style="color: white" href="https://www.linkedin.com/in/kagiri-dennis-4628a6a5/"><i class="fa fa-linkedin fa-2x w3-hover-opacity"></i></a>
-        </footer>
-
-    </div>
 
 </nav>
 
-    <div class="w3-light-grey w3-content " style="max-width:100%;">
-
-
-        <!-- Sidebar/menu -->
-        <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:240px;" id="mySidebar"><br>
-            <div class="menu w3-container">
-
-                    <ul>
-
-                        <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
-                        <i class="fa fa-remove"></i>
-                        </a>
-
-                        <img style="height: 300px;padding-top: 50px" src="Gallery/Dennis-Kagiri.jpg" alt="dennis kagiri">
-
-                        <li class="active"><a href="Index.html#home"><strong>Home</strong></a></li>
-                        <li><a href="Index.html#aboutme"><strong>About me</strong></a></li>
-                        <li><a href="Latest_posts.html"><strong>Latest posts</strong></a></li>
-                        <li><a href="Index.html#Contacts"><strong>Contacts</strong></a></li>
-                    </ul>
-
-
-        </div>
-        </nav>
-
-
-        <!-- Overlay effect when opening sidebar on small screens -->
-        <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
         <!-- !PAGE CONTENT! -->
-        <div class="w3-main" style="margin-left:240px">
+        <div class="w3-main">
 
             <!-- Header -->
-            <header id="portfolio">
-                <a href="#"><img src="content/Slider%20Banner.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
-                <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
-                <div class="w3-container">
-                    <h1><b>Latest posts</b></h1>
-                    <br>
-                </div>
-            </header>
+
 
             <section class="py-5 bg-light">
                 <div class="container">
@@ -289,7 +206,18 @@
             <!-- Footer -->
 
 
-            <div class="w3-black w3-center w3-padding-24"> copyright : 2020</div>
+            <div class="w3-black w3-center w3-padding-24">
+                <div id="header-icon" style="text-align: center">
+                    <footer class="w3-container-fluid  w3-center w3-opacity w3-large" style="margin-top:0">
+                        <a target="_blank" style="color: red"href="https://www.instagram.com/kagiri_dennis/"><i class="fa fa-instagram fa-2x w3-hover-opacity"></i></a>
+                        <a target="_blank" href="https://twitter.com/kagiridee"><i class="fa fa-twitter fa-2x w3-hover-opacity"></i></a>
+                        <a target="_blank" style="color: white" href="https://www.linkedin.com/in/kagiri-dennis-4628a6a5/"><i class="fa fa-linkedin fa-2x w3-hover-opacity"></i></a>
+                    </footer>
+
+                </div>
+                copyright : 2020
+
+            </div>
 
             <!-- End page content -->
         </div>
