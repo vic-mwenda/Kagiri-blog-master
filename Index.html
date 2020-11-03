@@ -64,22 +64,24 @@
 			body{
 				overflow: auto;
 			}
-			.mean-bar #cont{
+
+			 #con{
 				display: none;
 			}
 			.menu ul{
 				width: 0;
 			}
 
-			.mean-bar{
-				overflow: hidden;
-			}
+
 
 		}
 		@media only screen and (min-width: 768px) {
 			body{padding-left: 240px;}
-			html, body {margin: 0; height: 100%; overflow: hidden}
+			html, body {margin: 0; height: 100%; overflow: auto}
 			#cont{
+				display: none;
+			}
+			.sec4 {
 				display: none;
 			}
 		}
@@ -153,8 +155,8 @@ header{margin:10px 0px;}
 		<li class="active"><a href="#home"><strong>Home</strong></a></li>
 		<li><a href="#aboutme"><strong>About me</strong></a></li>
 		<li><a href="Latest_posts.html"><strong>Latest posts</strong></a></li>
-		<li><a href="#Contacts"><strong>Contacts</strong></a></li>
-		<li id="cont"><a href="#Contact"><strong>Contacts</strong></a></li>
+		<li><a id="con" href="#Contacts"><strong>Contacts</strong></a></li>
+		<li id="cont"><a href="#Contact's"><strong>Contact</strong></a></li>
 		</ul>
 	</div>
 </header>
@@ -313,7 +315,7 @@ header{margin:10px 0px;}
 
 
 
-	<div class="sec" id="Contacts" style="overflow: scroll">
+	<div class="sec" id="Contacts">
 
 
 		<br>
@@ -374,7 +376,7 @@ header{margin:10px 0px;}
 	</div>
 
 		<div class="sec4">
-			<h1 id="Contact" style="color: grey;text-align: center;font-size: x-large">
+			<h1  id="Contact's" style="color: grey;text-align: center;font-size: x-large">
 			</h1>
 			<div class="container-contact100">
 				<div class="contact100-map" id="google_map" data-map-x="40.722047" data-map-y="-73.986422" data-pin="images/icons/map-marker.png" data-scrollwhell="0" data-draggable="1"></div>
