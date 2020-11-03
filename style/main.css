@@ -8,11 +8,10 @@ a.meanmenu-reveal {
 .mean-container .mean-bar {
 	float: left;
 	width: 100%;
-	position: relative;
+	position: fixed;
 	margin-top: 0;
 	min-height: 42px;
 	z-index: 999999;
-
 
 }
 
@@ -21,6 +20,7 @@ a.meanmenu-reveal {
 }
 
 .mean-container a.meanmenu-reveal {
+
 	width: 22px;
 	height: 22px;
 	padding: 13px 13px 11px 13px;
@@ -51,6 +51,7 @@ a.meanmenu-reveal {
 	width: 100%;
 	background: #1e1e1e;
 	margin-top: 44px;
+
 }
 
 .mean-container .mean-nav ul {
@@ -88,6 +89,7 @@ a.meanmenu-reveal {
 	opacity: 0.75;
 	filter: alpha(opacity=75);
 	text-shadow: none !important;
+
 	visibility: visible;
 }
 
