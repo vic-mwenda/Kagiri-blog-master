@@ -1,506 +1,431 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-	<meta charset="utf-8">
-	<title>DennisKagiri </title>
-	<meta name="description" content=" Dennis kagiri blog homepage">
-	<meta name="google-site-verification" content="OjXOkcliZijMUWQUznfCclESAn5hIS-6Pg34yFJD1HI" />
+    <meta charset="utf-8">
+    <title>DennisKagiri </title>
+    <meta name="description" content=" Dennis kagiri blog homepage">
+    <meta name="google-site-verification" content="OjXOkcliZijMUWQUznfCclESAn5hIS-6Pg34yFJD1HI" />
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style/mediaqueries.css">
+    <link rel="stylesheet" type="text/css" href="./assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/plugins/animatecss/css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
 
-	<meta name="robots" content="index, follow" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" type="text/css" href="./assets/plugins/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="./assets/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./assets/plugins/animatecss/css/animate.min.css">
-	<link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+    <link rel="icon" href="Gallery/logo3.png" type="image/icon type">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="style/main.css" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="stylesheet" type="text/css" href="ContactFrom/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="ContactFrom/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="ContactFrom/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <link rel="stylesheet" type="text/css" href="ContactFrom/vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="ContactFrom/vendor/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="ContactFrom/vendor/animsition/css/animsition.min.css">
+    <link rel="stylesheet" type="text/css" href="ContactFrom/vendor/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="ContactFrom/vendor/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" type="text/css" href="ContactFrom/css/util.css">
+    <link rel="stylesheet" type="text/css" href="ContactFrom/css/main.css">
+    <title>Dennis Kagiri</title>
+    <style type="text/css">
+        body{max-width:100% ;margin:0 auto;}
+        header{margin:10px 0;}
+        .menu ul{
+            position: fixed;
+            top: 0;
+            left: 0;
+            /*margin-left: -20px;*/
+            width: 240px;
+            background: #1e1e1e;
+            height: 100vh;
+            overflow: hidden;
+            transition: all .3s;
+        }
+        .menu ul li{
+            height: 65px;
+            outline: none;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+        }
 
-	<link rel="icon" href="Gallery/logo3.png" type="image/icon type">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<!--    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>-->
+        .menu ul li a{
+            display: block;
+            height: 100%;
+            width: 100%;
+            line-height: 70px;
+            font-size: 20px;
+            color: white;
+            padding-left: 10%;
+            text-decoration: none;
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
-	<!--    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">-->
-	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-	<link rel="stylesheet" href="style/main.css" media="all" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-	<link rel="stylesheet" type="text/css" href="ContactFrom/vendor/bootstrap/css/bootstrap.min.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="ContactFrom/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="ContactFrom/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="ContactFrom/vendor/animate/animate.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="ContactFrom/vendor/css-hamburgers/hamburgers.min.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="ContactFrom/vendor/animsition/css/animsition.min.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="ContactFrom/vendor/select2/select2.min.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="ContactFrom/vendor/daterangepicker/daterangepicker.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="ContactFrom/css/util.css">
-	<link rel="stylesheet" type="text/css" href="ContactFrom/css/main.css">
-	<title>Dennis Kagiri</title>
-	<style>
-		@media only screen and (max-width: 768px) {
-			/* For mobile phones: */
-			.sec1 nav{display: none}
+            border-top: 1px solid rgba(255,255,255,.1);
+            border-bottom: 1px solid black;
+            border-left: 5px solid teal;
 
-			.sec3 {
-				display: none;
-			}
-			.sec1 #head{
-				display: none;
-			}
-			.sec1 #head2{
-				margin-top: -30vh;
-			}
-			.sec{
-				margin-top: 500px;
-				display: none;
-			}
-			body{
-				overflow: auto;
-			}
+        }
+        .menu ul li a:hover{
+            background-color: teal;
+            opacity: 60%;
+            border-left: 5px solid teal;
+            color: black;
+            font-family: "Apple Color Emoji", serif;
+            text-decoration-line: none;
+        }
+        .menu .active a{
+            color: teal;
+            border-left: 5px solid teal;
+            background: #1B1B1B;
+        }
 
-			 #con{
-				display: none;
-			}
-			.menu ul{
-				width: 0;
-			}
-
-
-
-		}
-		@media only screen and (min-width: 768px) {
-			body{padding-left: 240px;}
-			html, body {margin: 0; height: 100%; overflow: auto}
-			#cont{
-				display: none;
-			}
-			.sec4 {
-				display: none;
-			}
-		}
-	</style>
-<style type="text/css">
-body{max-width:100% ;margin:0 auto;}
-header{margin:10px 0px;}
-.menu ul{
-	position: fixed;
-	top: 0;
-	left: 0;
-	/*margin-left: -20px;*/
-	width: 240px;
-	background: #1e1e1e;
-	height: 100vh;
-	overflow: hidden;
-	transition: all .3s;
-}
-.menu ul li{
-	height: 65px;
-	outline: none;
-}
-*{
-	padding: 0;
-	margin: 0;
-	text-decoration: none;
-	list-style: none;
-	box-sizing: border-box;
-}
-
-.menu ul li a{
-	display: block;
-	height: 100%;
-	width: 100%;
-	line-height: 70px;
-	font-size: 20px;
-	color: white;
-	padding-left: 10%;
-	text-decoration: none;
-
-	border-top: 1px solid rgba(255,255,255,.1);
-	border-bottom: 1px solid black;
-	border-left: 5px solid teal;
-
-}
-.menu ul li a:hover{
-	background-color: teal;
-	opacity: 60%;
-	border-left: 5px solid teal;
-	color: black;
-	font-family: "Apple Color Emoji", serif;
-	text-decoration-line: none;
-}
-.menu .active a{
-	color: teal;
-	border-left: 5px solid teal;
-	background: #1B1B1B;
-}
-
-</style>
+    </style>
 
 </head>
 
-<body>
+<body style="overflow: auto">
 
 <header>
-	<div class="menu fixed-top">
-		<ul>
-		<img style="height: 300px;padding-top: 50px" src="Gallery/Dennis-Kagiri.jpg" alt="dennis kagiri">
+    <div class="menu fixed-top">
+        <ul>
+            <img id="img" style="height: 30vh;padding-top: 50px;width: 100%" src="Gallery/Dennis-Kagiri.jpg" alt="dennis kagiri">
 
-		<li class="active"><a href="#home"><strong>Home</strong></a></li>
-		<li><a href="#aboutme"><strong>About me</strong></a></li>
-		<li><a href="Latest_posts.html"><strong>Latest posts</strong></a></li>
-		<li><a id="con" href="#Contacts"><strong>Contacts</strong></a></li>
-		<li id="cont"><a href="#Contact's"><strong>Contact</strong></a></li>
-		</ul>
-	</div>
+            <li class="active"><a href="#home"><strong>Home</strong></a></li>
+            <li><a href="#aboutme"><strong>About me</strong></a></li>
+            <li><a href="Latest_posts.html"><strong>Latest posts</strong></a></li>
+            <li><a id="con" href="#Contacts"><strong>Contacts</strong></a></li>
+            <li id="cont"><a href="#Contact's"><strong>Contact</strong></a></li>
+        </ul>
+    </div>
 </header>
 <section>
-	<!--    <i class="fa fa-bars" aria-label="hidden"></i>-->
+    <!--    <i class="fa fa-bars" aria-label="hidden"></i>-->
 
 
-	<div class="sec1" id="home">
-		<nav class="fixed-top" style="padding-bottom: 20px;background: teal;height: 50px">
+    <div class="sec1" id="home">
+        <nav class="fixed-top" style="padding-bottom: 20px;background: teal;height: 50px">
 
-			<img height="40vh" style="padding-bottom: 10px;float: left" src="Gallery/logo4.png" alt="">
-			<div id="header-icons" style="float: right">
-				<footer class="w3-container-fluid  w3-center w3-opacity w3-large" style="margin-top:5px">
-					<a target="_blank" style="color: red"href="https://www.instagram.com/kagiri_dennis/"><i class="fa fa-instagram fa-2x w3-hover-opacity"></i></a>
-					<a target="_blank" href="https://twitter.com/kagiridee"><i class="fa fa-twitter fa-2x w3-hover-opacity"></i></a>
-					<a target="_blank" style="color: white" href="https://www.linkedin.com/in/kagiri-dennis-4628a6a5/"><i class="fa fa-linkedin fa-2x w3-hover-opacity"></i></a>
-				</footer>
+            <img height="40vh" style="padding-bottom: 10px;float: left" src="Gallery/logo4.png" alt="">
+            <div id="header-icons" style="float: right">
+                <footer class="w3-container-fluid  w3-center w3-opacity w3-large" style="margin-top:5px">
+                    <a target="_blank" style="color: red"href="https://www.instagram.com/kagiri_dennis/"><i class="fa fa-instagram fa-2x w3-hover-opacity"></i></a>
+                    <a target="_blank" href="https://twitter.com/kagiridee"><i class="fa fa-twitter fa-2x w3-hover-opacity"></i></a>
+                    <a target="_blank" style="color: white" href="https://www.linkedin.com/in/kagiri-dennis-4628a6a5/"><i class="fa fa-linkedin fa-2x w3-hover-opacity"></i></a>
+                </footer>
 
-			</div>
+            </div>
 
-		</nav>
-		<div id="head2" class="w3-container-fluid  w3-black w3-right w3-opacity w3-xlarge" style="width: 40vh;float: right;margin-top: 50vh;">
-			<div class="w3-container  w3-teal" style="padding-top: 20px">
-				<h4>Popular Posts</h4>
-			</div>
-			<ol class="w3-ul w3-hoverable w3-black">
-				<li class="w3-padding-16">
-					<a href="posts/Does%20you%20contact%20center%20help%20or%20frustrate%20customers.html"><img src="content/Images/dotsavvys-services-1.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        </nav>
+        <div id="head2" class="w3-container-fluid  w3-black w3-right w3-opacity w3-xlarge" style="width: 40vh;float: right;margin-top: 50vh;">
+            <div class="w3-container  w3-teal" style="padding-top: 20px">
+                <h4>Popular Posts</h4>
+            </div>
+            <ol class="w3-ul w3-hoverable w3-black">
+                <li class="w3-padding-16">
+                    <a href="posts/Does%20you%20contact%20center%20help%20or%20frustrate%20customers.html"><img src="content/Images/dotsavvys-services-1.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
 
-						<h6>Does you contact center help or frustrate customers?</h6></a>
-				</li>
-				<li class="w3-padding-16">
-					<a href="posts/Danger%20of%20replacing%20PR%20with%20Publicity.html"><img src="content/Images/board_evaluation-1.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+                        <h6>Does you contact center help or frustrate customers?</h6></a>
+                </li>
+                <li class="w3-padding-16">
+                    <a href="posts/Danger%20of%20replacing%20PR%20with%20Publicity.html"><img src="content/Images/board_evaluation-1.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
 
-						<h6>Danger of replacing PR with Publicity</h6></a>
-				</li>
-				<li class="w3-padding-16">
-					<a href="posts/During%20Crisis,%20Relationship%20management%20is%20key.html"><img src="Gallery/Landing.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+                        <h6>Danger of replacing PR with Publicity</h6></a>
+                </li>
+                <li class="w3-padding-16">
+                    <a href="posts/During%20Crisis,%20Relationship%20management%20is%20key.html"><img src="Gallery/Landing.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
 
-						<h6>During Crisis, Relationship management is key</h6></a>
-				</li>
-				<li class="w3-padding-16">
-					<a href="posts/Social%20media%20is%20for%20engagement,%20its%20not%20a%20task.html"><img src="content/Slider%20Banner.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+                        <h6>During Crisis, Relationship management is key</h6></a>
+                </li>
+                <li class="w3-padding-16">
+                    <a href="posts/Social%20media%20is%20for%20engagement,%20its%20not%20a%20task.html"><img src="content/Slider%20Banner.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
 
-						<h6>Social media is for engagement, its not a task</h6></a>
-				</li>
-			</ol>
-		</div>
+                        <h6>Social media is for engagement, its not a task</h6></a>
+                </li>
+            </ol>
+        </div>
 
-		<div id="head" style="margin-left: 200px;padding-top: 400px;">
-			<h1 class="text-lg margin-b-0" style="color: white">Hi! I’m <strong>Denis Kagiri</strong></h1>
-			<h5 class="text-tertiary margin-b-40" style="color: teal;padding-left: 20px">Experienced digital media strategist</h5>
-			<a href="#aboutme"><button type="button" class="btn btn-primary" style="padding-left: 10px;border: none;position: relative;border-radius: 30px;font-size: 13px;height: 60px;width: 180px">About</button>
-			</a>
-		</div>
-	</div>
+        <div id="head" style="margin-left: 200px;padding-top: 400px;">
+            <h1 class="text-lg margin-b-0" style="color: white">Hi! I’m <strong>Denis Kagiri</strong></h1>
+            <h5 class="text-tertiary margin-b-40" style="color: teal;padding-left: 20px">Experienced digital media strategist</h5>
+            <a href="#aboutme"><button type="button" class="btn btn-primary" style="padding-left: 10px;border: none;position: relative;border-radius: 30px;font-size: 13px;height: 60px;width: 180px">About</button>
+            </a>
+        </div>
+    </div>
 
-	<div class="sec2">
+    <div class="sec2">
 
-		<div class="w3-content w3-margin-top" style="max-width:1400px;">
+        <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
-			<!-- The Grid -->
-			<div class="w3-row-padding">
-				<h1 id="aboutme" style="color: grey;text-align: center;font-size: x-large">
-					<strong>About me</strong>
-				</h1>
-				<!-- Left Column -->
-				<div class="w3-third">
+            <!-- The Grid -->
+            <div class="w3-row-padding">
+                <h1 id="aboutme" style="color: grey;text-align: center;font-size: x-large">
+                    <strong>About me</strong>
+                </h1>
+                <!-- Left Column -->
+                <div class="w3-third">
 
-					<div class="w3-white w3-text-grey w3-card-4">
-						<div class="w3-display-container">
-							<img src="Gallery/Dennis-Kagiri.jpg" style="width:100%" alt="">
-							<div class="w3-display-bottomleft w3-container w3-text-black">
-							</div>
-						</div>
-						<div class="w3-container">
-							<p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Digital marketer</p>
-							<p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Nairobi,KE</p>
-							<hr>
+                    <div class="w3-white w3-text-grey w3-card-4">
+                        <div class="w3-display-container">
+                            <img src="Gallery/Dennis-Kagiri.jpg" style="width:100%" alt="">
+                            <div class="w3-display-bottomleft w3-container w3-text-black">
+                            </div>
+                        </div>
+                        <div class="w3-container">
+                            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Digital marketer</p>
+                            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Nairobi,KE</p>
+                            <hr>
 
-							<p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-							<p>Marketing Campaign Management</p>
-							<div class="w3-light-grey w3-round-xlarge w3-small">
-								<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
-							</div>
-							<p>Digital Media management</p>
-							<div class="w3-light-grey w3-round-xlarge w3-small">
-								<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
-									<div class="w3-center w3-text-white">80%</div>
-								</div>
-							</div>
-							<p>Social Content management</p>
-							<div class="w3-light-grey w3-round-xlarge w3-small">
-								<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
-							</div>
-							<p>Content Ideation</p>
-							<div class="w3-light-grey w3-round-xlarge w3-small">
-								<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>
-							</div>
+                            <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+                            <p>Marketing Campaign Management</p>
+                            <div class="w3-light-grey w3-round-xlarge w3-small">
+                                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+                            </div>
+                            <p>Digital Media management</p>
+                            <div class="w3-light-grey w3-round-xlarge w3-small">
+                                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+                                    <div class="w3-center w3-text-white">80%</div>
+                                </div>
+                            </div>
+                            <p>Social Content management</p>
+                            <div class="w3-light-grey w3-round-xlarge w3-small">
+                                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+                            </div>
+                            <p>Content Ideation</p>
+                            <div class="w3-light-grey w3-round-xlarge w3-small">
+                                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>
+                            </div>
 
-							<p>digital marketing strategy</p>
-							<div class="w3-light-grey w3-round-xlarge w3-small">
-								<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
-							</div>
-
-
-							<br>
-						</div>
-
-					</div><br>
-
-					<!-- End Left Column -->
-				</div>
-
-				<!-- Right Column -->
-				<div class="w3-twothird">
+                            <p>digital marketing strategy</p>
+                            <div class="w3-light-grey w3-round-xlarge w3-small">
+                                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+                            </div>
 
 
-					<div class="w3-container w3-card w3-white">
-						<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>About me</h2>
-						<div class="w3-container">
-							<p>
-								I am an innovative and creative Digital marketer with over 5 years experience in Digital advertising, social media marketing and social media engagement to a variety of audiences.
-								As a digital marketer, I have first hand experience working with major social media platforms including Facebook, Twitter, Google, Instagram, Snapchat, Wordpress blogs, and LinkedIn.
-								I have a track record of designing and executing successful social media campaigns focusing on brand growth, awareness creation and boosting of sales and marketing.
-								Currently, I work as a Twitter Client Partner with the biggest Digital Media sales house in Africa, Ad Dynamo, which is a partner of Twitter, Snapchat and Verizon. I am part of the team that guides brands in content ideation, launch strategy and  always on campaigns. My goal is to continuously offer my expertise and assist companies create understanding with internal and external publics through efficient exchange of information.
+                            <br>
+                        </div>
 
-							</p>
+                    </div><br>
 
-						</div>
+                    <!-- End Left Column -->
+                </div>
 
-					</div>
-					<div class="w3-container w3-card w3-white w3-margin-bottom w3-margin-top w3-padding-bottom">
-						<p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-						<p>English</p>
-						<div class="w3-light-grey w3-round-xlarge">
-							<div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-						</div>
-						<p>kiswahili</p>
-						<div class="w3-light-grey w3-round-xlarge">
-							<div class="w3-round-xlarge w3-teal" style="height:24px;width:75%;padding-bottom: 10px"></div>
-						</div>
-
-					</div>
-
-					<!-- End Right Column -->
-				</div>
-
-				<!-- End Grid -->
-			</div>
-
-			<!-- End Page Container -->
-		</div>
-
-	</div>
+                <!-- Right Column -->
+                <div class="w3-twothird">
 
 
+                    <div class="w3-container w3-card w3-white">
+                        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>About me</h2>
+                        <div class="w3-container">
+                            <p>
+                                I am an innovative and creative Digital marketer with over 5 years experience in Digital advertising, social media marketing and social media engagement to a variety of audiences.
+                                As a digital marketer, I have first hand experience working with major social media platforms including Facebook, Twitter, Google, Instagram, Snapchat, Wordpress blogs, and LinkedIn.
+                                I have a track record of designing and executing successful social media campaigns focusing on brand growth, awareness creation and boosting of sales and marketing.
+                                Currently, I work as a Twitter Client Partner with the biggest Digital Media sales house in Africa, Ad Dynamo, which is a partner of Twitter, Snapchat and Verizon. I am part of the team that guides brands in content ideation, launch strategy and  always on campaigns. My goal is to continuously offer my expertise and assist companies create understanding with internal and external publics through efficient exchange of information.
 
-	<div class="sec" id="Contacts">
+                            </p>
+
+                        </div>
+
+                    </div>
+                    <div class="w3-container w3-card w3-white w3-margin-bottom w3-margin-top w3-padding-bottom">
+                        <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+                        <p>English</p>
+                        <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+                        </div>
+                        <p>kiswahili</p>
+                        <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-round-xlarge w3-teal" style="height:24px;width:75%;padding-bottom: 10px"></div>
+                        </div>
+
+                    </div>
+
+                    <!-- End Right Column -->
+                </div>
+
+                <!-- End Grid -->
+            </div>
+
+            <!-- End Page Container -->
+        </div>
+
+    </div>
 
 
-		<br>
 
-		<section class="form-style-7 p-relative bg-dark cwhite">
-			<div class="container">
-				<div class="row">
+    <div class="sec" id="Contacts">
 
-					<div class="col-10 mx-auto p-4">
-						<div class="row">
-							<div class="col-12 my-3">
-								<h2 class="font-title bolder text-center mb-5 uppercase" >Get in Touch<div class="mline bg-warning"></div></h2></div>
-							<div class="col-md-6 col-12">
-								<h6 class="uppercase my-3 font-title">Address</h6>
-								<p class="mb-5 ">Nairobi,Kenya</p>
-								<h6 class="uppercase my-3 font-title">Contact</h6>
-								<p class="mb-5"><i class="fa fa-phone mr-2"></i>+254 720 333869<br><i class="fa fa-envelope mr-2"></i> kagiridee@gmail.com</p>
-								<h6 class="uppercase my-3 font-title">Social</h6>
-								<a target="_blank" href="https://www.instagram.com/kagiri_dennis/" class="p-2 m-2 bg-white"><i class="fa fa-instagram cdark"></i></a>
-								<a target="_blank" href="https://twitter.com/kagiridee" class="p-2 m-2 bg-white"><i class="fa fa-twitter cdark"></i></a>
-								<a target="_blank" href="https://www.linkedin.com/in/kagiri-dennis-4628a6a5/" class="p-2 m-2 bg-white"><i class="fa fa-linkedin cdark"></i></a>
-							</div>
-							<div class="col-md-6 col-12 my-3">
-								<form method="POST" data-netlify="true">
-									<div class="form-group">
-										<label>Name</label>
-										<input type="text" class="form-control flat  ">
-									</div>
-									<div class="form-group">
-										<label>Email</label>
-										<input type="email" class="form-control flat  ">
-									</div>
-									<div class="form-group">
-										<label>Message</label>
-										<textarea class="form-control flat " rows="4"></textarea>
-									</div>
-									<div class="form-group ">
-										<button type="submit" class="btn btn-warning"><i class="fa fa-paper-plane mr-2"></i>Send</button>
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
-					<div class="col-12 p-0">
-						<iframe class="p-relative"
-								width="100%"
-								height="300px"
-								frameborder="0" style="border:0"
-								src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBMgRblEioSamju0neKitZS49SNujWkbMM
+
+        <br>
+
+        <section class="form-style-7 p-relative bg-dark cwhite">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-10 mx-auto p-4">
+                        <div class="row">
+                            <div class="col-12 my-3">
+                                <h2 class="font-title bolder text-center mb-5 uppercase" >Get in Touch<div class="mline bg-warning"></div></h2></div>
+                            <div class="col-md-6 col-12">
+                                <h6 class="uppercase my-3 font-title">Address</h6>
+                                <p class="mb-5 ">Nairobi,Kenya</p>
+                                <h6 class="uppercase my-3 font-title">Contact</h6>
+                                <p class="mb-5"><i class="fa fa-phone mr-2"></i>+254 720 333869<br><i class="fa fa-envelope mr-2"></i> kagiridee@gmail.com</p>
+                                <h6 class="uppercase my-3 font-title">Social</h6>
+                                <a target="_blank" href="https://www.instagram.com/kagiri_dennis/" class="p-2 m-2 bg-white"><i class="fa fa-instagram cdark"></i></a>
+                                <a target="_blank" href="https://twitter.com/kagiridee" class="p-2 m-2 bg-white"><i class="fa fa-twitter cdark"></i></a>
+                                <a target="_blank" href="https://www.linkedin.com/in/kagiri-dennis-4628a6a5/" class="p-2 m-2 bg-white"><i class="fa fa-linkedin cdark"></i></a>
+                            </div>
+                            <div class="col-md-6 col-12 my-3">
+                                <form method="POST" data-netlify="true">
+                                    <div class="form-group">
+                                        <label>Name</label>
+                                        <input type="text" class="form-control flat  ">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Email</label>
+                                        <input type="email" class="form-control flat  ">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Message</label>
+                                        <textarea class="form-control flat " rows="4"></textarea>
+                                    </div>
+                                    <div class="form-group ">
+                                        <button type="submit" class="btn btn-warning"><i class="fa fa-paper-plane mr-2"></i>Send</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 p-0">
+                        <iframe class="p-relative"
+                                width="100%"
+                                height="300px"
+                                frameborder="0" style="border:0"
+                                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBMgRblEioSamju0neKitZS49SNujWkbMM
         &q=Space+Needle,Nairobi" allowfullscreen>
-						</iframe>
-					</div>
-				</div>
+                        </iframe>
+                    </div>
+                </div>
 
-			</div>
-		</section>
+            </div>
+        </section>
 
-	</div>
+    </div>
 
-		<div class="sec4">
-			<h1  id="Contact's" style="color: grey;text-align: center;font-size: x-large">
-			</h1>
-			<div class="container-contact100">
-				<div class="contact100-map" id="google_map" data-map-x="40.722047" data-map-y="-73.986422" data-pin="images/icons/map-marker.png" data-scrollwhell="0" data-draggable="1"></div>
+    <div class="sec4">
+        <h1  id="Contact's" style="color: grey;text-align: center;font-size: x-large">
+        </h1>
+        <div class="container-contact100">
+            <div class="contact100-map" id="google_map" data-map-x="40.722047" data-map-y="-73.986422" data-pin="images/icons/map-marker.png" data-scrollwhell="0" data-draggable="1"></div>
 
-				<div class="wrap-contact100">
-					<div class="contact100-form-title" style="background-image: url(ContactFrom/images/bg-01.jpg);">
+            <div class="wrap-contact100">
+                <div class="contact100-form-title" style="background-image: url(ContactFrom/images/bg-01.jpg);">
 				<span class="contact100-form-title-1">
 					Contact Us
 				</span>
 
-						<span class="contact100-form-title-2">
+                    <span class="contact100-form-title-2">
 					Feel free to drop us a line below!
 				</span>
-					</div>
+                </div>
 
-					<form class="contact100-form validate-form">
-						<div class="wrap-input100 validate-input" data-validate="Name is required">
-							<span class="label-input100">Full Name:</span>
-							<input class="input100" type="text" name="name" placeholder="Enter full name">
-							<span class="focus-input100"></span>
-						</div>
+                <form class="contact100-form validate-form">
+                    <div class="wrap-input100 validate-input" data-validate="Name is required">
+                        <span class="label-input100">Full Name:</span>
+                        <input class="input100" type="text" name="name" placeholder="Enter full name">
+                        <span class="focus-input100"></span>
+                    </div>
 
-						<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-							<span class="label-input100">Email:</span>
-							<input class="input100" type="text" name="email" placeholder="Enter email addess">
-							<span class="focus-input100"></span>
-						</div>
+                    <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+                        <span class="label-input100">Email:</span>
+                        <input class="input100" type="text" name="email" placeholder="Enter email addess">
+                        <span class="focus-input100"></span>
+                    </div>
 
-						<div class="wrap-input100 validate-input" data-validate="Phone is required">
-							<span class="label-input100">Phone:</span>
-							<input class="input100" type="text" name="phone" placeholder="Enter phone number">
-							<span class="focus-input100"></span>
-						</div>
+                    <div class="wrap-input100 validate-input" data-validate="Phone is required">
+                        <span class="label-input100">Phone:</span>
+                        <input class="input100" type="text" name="phone" placeholder="Enter phone number">
+                        <span class="focus-input100"></span>
+                    </div>
 
-						<div class="wrap-input100 validate-input" data-validate = "Message is required">
-							<span class="label-input100">Message:</span>
-							<textarea class="input100" name="message" placeholder="Your Comment..."></textarea>
-							<span class="focus-input100"></span>
-						</div>
+                    <div class="wrap-input100 validate-input" data-validate = "Message is required">
+                        <span class="label-input100">Message:</span>
+                        <textarea class="input100" name="message" placeholder="Your Comment..."></textarea>
+                        <span class="focus-input100"></span>
+                    </div>
 
-						<div class="container-contact100-form-btn">
-							<button class="contact100-form-btn">
+                    <div class="container-contact100-form-btn">
+                        <button class="contact100-form-btn">
 						<span>
 							Submit
 							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
 						</span>
-							</button>
-						</div>
-					</form>
-				</div>
-			</div>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
 
 
 
-			<div id="dropDownSelect1"></div>
-		</div>
-<div class="w3-black w3-center w3-padding-24"> copyright : 2020</div>
+        <div id="dropDownSelect1"></div>
+    </div>
+    <div class="w3-black w3-center w3-padding-24"> copyright : 2020</div>
 
 
-<br>
+    <br>
 
 
-<!--===============================================================================================-->
+    <!--===============================================================================================-->
 
-<!--===============================================================================================-->
-<script src="ContactFrom/vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-<script src="ContactFrom/vendor/animsition/js/animsition.min.js"></script>
-<!--===============================================================================================-->
-<script src="ContactFrom/vendor/bootstrap/js/popper.js"></script>
-<script src="ContactFrom/vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-<script src="ContactFrom/vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-<script src="ContactFrom/vendor/daterangepicker/moment.min.js"></script>
-<script src="ContactFrom/vendor/daterangepicker/daterangepicker.js"></script>
-<!--===============================================================================================-->
-<script src="ContactFrom/vendor/countdowntime/countdowntime.js"></script>
-<!--===============================================================================================-->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script>
-<script src="ContactFrom/js/map-custom.js"></script>
-<!--===============================================================================================-->
-<script src="ContactFrom/js/main.js"></script>
+    <!--===============================================================================================-->
+    <script src="ContactFrom/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="ContactFrom/vendor/animsition/js/animsition.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="ContactFrom/vendor/bootstrap/js/popper.js"></script>
+    <script src="ContactFrom/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="ContactFrom/vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="ContactFrom/vendor/daterangepicker/moment.min.js"></script>
+    <script src="ContactFrom/vendor/daterangepicker/daterangepicker.js"></script>
+    <!--===============================================================================================-->
+    <script src="ContactFrom/vendor/countdowntime/countdowntime.js"></script>
+    <!--===============================================================================================-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script>
+    <script src="ContactFrom/js/map-custom.js"></script>
+    <!--===============================================================================================-->
+    <script src="ContactFrom/js/main.js"></script>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-	gtag('config', 'UA-23581568-13');
-</script>
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script>
-	// Toggle grid padding
-	function myFunction() {
-		var x = document.getElementById("myGrid");
-		if (x.className === "w3-row") {
-			x.className = "w3-row-padding";
-		} else {
-			x.className = x.className.replace("w3-row-padding", "w3-row");
-		}
-	}
-
-</script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-
-<!-- Initialize Firebase -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/1bb820cba5ae44672e889f6bb/7cbe8107a2945cbe39808d88f.js");</script>
+        gtag('config', 'UA-23581568-13');
+    </script>
 
 
-<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 
-<script src="style/jquery.meanmenu.js"></script>
-<script>
-	jQuery(document).ready(function () {
-	    jQuery('.menu').meanmenu();
-	});
-</script>
+    <script src="style/jquery.meanmenu.js"></script>
+    <script>
+        jQuery(document).ready(function () {
+            jQuery('.menu').meanmenu();
+        });
+    </script>
+</section>
 </body>
 </html>

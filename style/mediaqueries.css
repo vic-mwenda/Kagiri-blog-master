@@ -1,0 +1,39 @@
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .sec1 nav{display: none}
+
+    .sec1 #head{
+        display: none;
+    }
+    .sec1 #head2{
+        margin-top: -30vh;
+    }
+    .sec{
+        margin-top: 500px;
+        display: none;
+    }
+    body{
+        overflow: auto;
+    }
+
+    #con{
+        display: none;
+    }
+    .menu ul{
+        width: 0;
+    }
+
+
+
+
+}
+@media only screen and (min-width: 768px) {
+    body{padding-left: 240px;}
+    html, body {margin: 0; height: 100%; overflow: auto}
+    #cont{
+        display: none;
+    }
+    .sec4 {
+        display: none;
+    }
+}
